@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
   <div class="row">
-    <div class="col-xs-12 col-md-4">
-      <nav>
+    <div class="col-xs-12 col-md-4 col-md-push-4">
+      <nav id="sidebar">
         <h2><a href="/">3 PAPERS</a></h2>
         <p><a href="/about">ABOUT</a></p>
       </nav>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-4 col-md-pull-4">
       <main role="main">
         {% for user in users %}
         <article class="user">

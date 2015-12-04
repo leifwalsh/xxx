@@ -67,4 +67,23 @@ This helped me to realize the monumental importance of perspective, and to const
    {:title "Paxos Made Simple"
     :authors "Leslie Lamport"
     :link "http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf"
-    :story "I received very little exposure to distributed systems in school, but nowadays I am inundated by talks, papers, and discussions about disturbed systems. David Greenberg pointed me to this paper (in conjunction to the Raft paper) almost two years ago, and I like to think of it as my first step down the rabbit hole."}]}}
+    :story "I received very little exposure to distributed systems in school, but nowadays I am inundated by talks, papers, and discussions about disturbed systems. David Greenberg pointed me to this paper (in conjunction to the Raft paper) almost two years ago, and I like to think of it as my first step down the rabbit hole."}]}
+ "coveneyj"
+ {:name "Jonathan Coveney"
+  :userpic "coveneyj.jpg"
+  :userinfo "Two Sigma"
+  :layout "full-photo-top"
+  :papers
+  [
+   {:title "MapReduce"
+    :authors "Jeffrey Dean and Sanjay Ghemawat"
+    :link "http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf"
+    :story "I read this paper in my first data analysis job and it sort of blew my mind. I was still pretty fresh to programming in general, I had just started using hadoop, and this is what made it \"click\" that we could really reason about programs, and that analysis was a great fit for this."}
+   {:title "Functional Pearl: The Zipper"
+    :authors "Gérard Huet"
+    :link "https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/huet-zipper.pdf"
+    :story "This paper (and the more general delta of a type paper) really made a lot of things about algebraic data types and functional programming pop into place. I read it once, didn't get it, reread it a couple of times explained different ways, and once it clicked a LOT of things made a lot of sense, and I saw this beautiful connection between different areas of mathematics. More generally, it underscored just how powerful algebraic data types are, and how if we think about things in the right way, there are these really amazing answers lurking around."}
+   {:title "Type-Driven Development of Concurrent Communicating Systems"
+    :authors "Edwin Brady"
+    :link "https://eb.host.cs.st-andrews.ac.uk/drafts/tdd-conc.pdf"
+    :story "This is kind of an obscure paper that isn't really that consequential, even in the idris community... but basically it shows how you can use dependent types to create protocols that are checked by the compiler. I knew it was ~possible~, but to see an actual implementation in a language that I might want to use was really awesome, and it has really framed how I've thought about what I \"care about\" in types/fp... I doubt I'll get to really work on it for a while, but I fully believe that for at least certain things of enough importance, we can and should implement and verify in this way, fully leveraging the computer to minimize mistakes. And this paper showed me that it really is possible.}"}]}}
