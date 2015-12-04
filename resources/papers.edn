@@ -86,4 +86,23 @@ This helped me to realize the monumental importance of perspective, and to const
    {:title "Type-Driven Development of Concurrent Communicating Systems"
     :authors "Edwin Brady"
     :link "https://eb.host.cs.st-andrews.ac.uk/drafts/tdd-conc.pdf"
-    :story "This is kind of an obscure paper that isn't really that consequential, even in the idris community... but basically it shows how you can use dependent types to create protocols that are checked by the compiler. I knew it was ~possible~, but to see an actual implementation in a language that I might want to use was really awesome, and it has really framed how I've thought about what I \"care about\" in types/fp... I doubt I'll get to really work on it for a while, but I fully believe that for at least certain things of enough importance, we can and should implement and verify in this way, fully leveraging the computer to minimize mistakes. And this paper showed me that it really is possible.}"}]}}
+    :story "This is kind of an obscure paper that isn't really that consequential, even in the idris community... but basically it shows how you can use dependent types to create protocols that are checked by the compiler. I knew it was ~possible~, but to see an actual implementation in a language that I might want to use was really awesome, and it has really framed how I've thought about what I \"care about\" in types/fp... I doubt I'll get to really work on it for a while, but I fully believe that for at least certain things of enough importance, we can and should implement and verify in this way, fully leveraging the computer to minimize mistakes. And this paper showed me that it really is possible.}"}]}
+ "palaitis"
+ {:name "David Palaitis"
+  :userpic "palaitis.jpg"
+  :userinfo "Two Sigma"
+  :layout "palaitis"
+  :papers
+  [
+   {:title "An Efficient Algorithm for Determining the Convex Hull of a Finite Planar Set"
+    :authors "R. L. Graham"
+    :link "http://www.math.ucsd.edu/~ronspubs/72_10_convex_hull.pdf"
+    :story "On [Lifetime's](﻿https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMp0W0RgmdElmXtiL0mCHqENaRIRtIVAnXj3iL_F3EbZjEEjh) second European tour, I carried a photocopy of this paper in my dusty, beat up thrift shop suitcase. In the slow motion downtime between days, I worked through it repeatedly.  By the end of the tour, I'd taken to compulsively doodling steps of the Graham Scan and other algorithms in comp geometry. I'd draw hundreds of points on a piece paper, then work through the Convex Hulls and Voronoi Diagrams until I started to feel better, less homesick, less crazy, more myself."}
+   {:title "Time, Clocks, and the Ordering of Events in a Distributed System﻿﻿"
+    :authors "Leslie Lamport"
+    :link "http://amturing.acm.org/p558-lamport.pdf"
+    :story "I call this one, endearingly, the Greenberg paper. In the early days of Simfarm v2, maybe early 2013, we spent hours walking in circles Washington Square Park, talking distributed systems. I remember him saying, 'what? You haven't read time, clocks and ordering?, you're kidding me.  This one gets under your skin, should be required reading, and is just ridiculously prescient. Written in 1978, pre-internet in the context of ARPANET, it's as relevant today."}
+   {:title "Spanner: Google's globally distributed database﻿﻿"
+    :authors "Jeff Dean et. al."
+    :link "http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"
+    :story "Because Jeff Dean, and because this is the high bar by which we can benchmark our team."}]}}
