@@ -2,7 +2,7 @@
  {:name "Leif Walsh"
   :userpic "leif.jpg"
   :userinfo "Two Sigma"
-  :layout 1
+  :layout small-photo-left
   :papers
   [
    {:title "On the Zone Theorem for Hyperplane Arrangements"
@@ -23,7 +23,7 @@ It's pretty swell."}
  {:name "Wil Yegelwel"
   :userpic "wyegelwe.jpg"
   :userinfo "Two Sigma"
-  :layout 2
+  :layout small-photo-right
   :papers
   [
    {:title ""
@@ -42,7 +42,7 @@ It's pretty swell."}
  {:name "Andrew Bolin"
   :userpic "abolin.jpg"
   :userinfo "Two Sigma"
-  :layout 3
+  :layout full-photo-top
   :papers
   [
    {:title ""

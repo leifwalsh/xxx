@@ -56,7 +56,7 @@
 
 (defn start-app [[port]]
   (.addShutdownHook (Runtime/getRuntime) (Thread. stop-app))
-  (start-nrepl)
+  ;(start-nrepl)
   (start-http-server (http-port port))
   (timbre/info "server started on port:" (:port @http-server)))
 

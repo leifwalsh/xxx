@@ -6,11 +6,10 @@
             [clojure.java.io :as io]))
 
 (def users
-  (memoize
    (fn get-users []
      (-> (io/resource "papers.edn")
          (slurp)
-         (edn/read-string)))))
+         (edn/read-string))))
 
 (defn home-page []
   (layout/render "home.html" {:users (->> (users)
@@ -20,7 +19,7 @@
 
 (defn user-page [id]
   (if-let [user (get (users) id)]
-    (layout/render (format "layout%d.html" (:layout user))
+    (layout/render (str (:layout user) ".html") 
                    user)
     (layout/error-page {:status 404
                         :title "page not found"})))

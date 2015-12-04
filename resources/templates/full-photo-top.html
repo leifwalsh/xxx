@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-xs-12">
+        <img src="/img/{{userpic}}" alt="">
+    </div>
+</div>
+  <div class="row">
+    <div class="col-xs-9">
+      <h2 style="margin-top: 0px; font-variant: small-caps;">{{name}}</h2>
+      {{userinfo|markdown}}
+      {% for paper in papers %}
+      <div class="paper">
+        <a href="{{paper.link}}"><h3 style="font-variant: small-caps;">{{paper.title}}</h3></a>
+        <p><em>{{paper.authors}}</em></p>
+        {{paper.story|markdown}}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
