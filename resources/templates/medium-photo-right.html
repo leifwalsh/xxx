@@ -1,19 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
+  {% include "user-site-nav.html" %}
+  <main>
   <div class="row" style="height: 100%">
     <div class="col-md-6 col-xs-12">
       <h2 style="margin-top: 0px; font-variant: small-caps;">{{name}}</h2>
       {{userinfo|markdown}}
       {% for paper in papers %}
-      <div class="paper" >
-        <a href="{{paper.link}}"><h3 style="font-variant: small-caps;">{{paper.title}}</h3></a>
-        <p><em>{{paper.authors}}</em></p>
-        {{paper.story|markdown}}
-      </div>
+      {% include "paper.html" %}
       {% endfor %}
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div class="col-md-6 col-xs-12 right-pic">
       <img src="/img/{{userpic}}" width="100%" height="100%"/>
     </div>
   </div>
+  </main>
 {% endblock %}

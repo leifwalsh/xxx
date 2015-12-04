@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
+{% include "user-site-nav.html" %}
+  <main>
   <div class="row">
     <div class="col-xs-12">
       <img src="/img/{{userpic}}" width="100%">
@@ -12,15 +14,10 @@
           <h2 class="name">{{name}}</h2>
         </header>
         {% for paper in papers %}
-        <article class="paper">
-          <a href="{{paper.link}}"><h3 class="title">{{paper.title}}</h3></a>
-          <p class="authors">{{paper.authors}}</p>
-          <div class="story">
-            {{paper.story|markdown}}
-          </div>
-        </article>
+        {% include "paper.html" %}
         {% endfor %}
       </main>
     </div>
   </div>
+  </main>
 {% endblock %}

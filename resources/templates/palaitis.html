@@ -1,13 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-  <div class="row">
-    <div class="col-md-10 col-sm-12 col-xs-12">
-      <nav class="align-right">
-        <a href="/">3 PAPERS</a> | <a href="/about">ABOUT</a>
-      </nav>
-    </div>
-  </div>
-  <main>
+{% include "user-site-nav.html" %}
+    <main>
     <div class="row">
       <div class="col-md-8 col-xs-12">
         <header class="user">
@@ -19,15 +13,9 @@
         {% for paper in papers %}
         {% if not forloop.first %}
         <div class="row">
-          <div class="col-xs-12">
-            <article class="paper">
-              <h5 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h5>
-              <p class="authors small">{{paper.authors}}</p>
-              <div class="story small">
-                {{paper.story|markdown}}
-              </div>
-            </article>
-          </div>
+            <div class="col-xs-12">
+                {% include "paper.html" %}
+            </div>
         </div>
         {% endif %}
         {% endfor %}
@@ -37,13 +25,7 @@
       <div class="col-md-4 col-md-push-1 col-xs-12">
         {% for paper in papers %}
         {% if forloop.first %}
-        <article class="paper">
-          <h5 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h5>
-          <p class="authors small">{{paper.authors}}</p>
-          <div class="story small">
-            {{paper.story|markdown}}
-          </div>
-        </article>
+        {% include "paper.html" %}
         {% endif %}
         {% endfor %}
       </div>
