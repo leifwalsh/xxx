@@ -8,17 +8,15 @@
    {:title "On the Zone Theorem for Hyperplane Arrangements"
     :authors "Herbert Edelsbrunner, Raimund Seidel, and Micha Sharir"
     :link "http://pub.ist.ac.at/~edels/Papers/1993-J-02-OnZoneTheorem.pdf"
-    :story "Sweeeeet."}
+    :story "The story behind this one was told to me by my comp. geometry professor. In the late 80s the original Zone Theorem paper came out, and people started relying on it for their own results. At a conference a few years later, during the open problem session, someone (I think one of the authors?) went to the board and wrote down the question that the Zone Theorem answers. Everyone immediately recognized it and wondered why it was being presented as an open problem. Whoever it was said that they'd found a flaw in the proof and it needed to be fixed. Since everyone's results depended on it, they all pitched in to figure it out, and by the end of the conference they'd come up with a new, far simpler proof. My professor said it might be a good idea to fake this once in a while to try to get people to find simpler proofs of fundamental results. Anyway, this paper is the fixed version."}
    {:title "On Khovanov's categorification of the Jones polynomial"
     :authors "Dror Bar-Natan"
     :link "http://arxiv.org/abs/math/0201043"
-    :story "I like this paper.
-
-It's pretty swell."}
+    :story "This was the paper I presented with a friend when we had a knot theory seminar one semester. It was a lot of fun to prepare for, and the last page is a \"quick reference guide - cut, fold neatly, and place in your wallet\". Which of course we did."}
    {:title "Reflections on Trusting Trust"
     :authors "Ken Thompson"
     :link "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf"
-    :story "Also p. dope."}]}
+    :story "You've probably heard the story of Ken Thompson's famous compiler backdoor. This is the original form (well, he actually cites an \"unknown Air Force document\" which was later dug up and is available here [http://csrc.nist.gov/publications/history/karg74.pdf](http://csrc.nist.gov/publications/history/karg74.pdf), see p. 50 for the \"trap door\")."}]}
  "wyegelwe"
  {:name "Wil Yegelwel"
   :userpic "wyegelwe.jpg"
@@ -26,18 +24,19 @@ It's pretty swell."}
   :layout small-photo-right
   :papers
   [
-   {:title ""
-    :authors ""
-    :link ""
-    :story ""}
-   {:title ""
-    :authors ""
-    :link ""
-    :story ""}
-   {:title ""
-    :authors ""
-    :link ""
-    :story ""}]}
+   {:title "The Rendering Equation"
+    :authors "James T. Kajiya"
+    :link "http://www.dca.fee.unicamp.br/~leopini/DISCIPLINAS/IA725/ia725-12010/kajiya-SIG86-p143.pdf"
+    :story "This is *the* foundational paper for computer graphics. Kajiya provides a single equation to compute the intensity of light at every point in a scene.
+I took my first computer graphics course as a sophomore and this paper made me realize how broad topics can come together to make something great. This paper and that course was the push that caused me to study applied math and look to learn from as many sources as possible."}
+   {:title "The Mathematical Theory of Communication"
+    :authors "C. E. Shannon"
+    :link "http://www.mast.queensu.ca/~math474/shannon1948.pdf"
+    :story "Shannon’s work on information theory is just incredible. He opened and closed information theory in one paper. I spent the following semester figuring out how to view problems in terms of information, entropy and KL divergence. Any time I hear of an information theory problem I still get excited."}
+   {:title "Dynamo: Amazon’s Highly Available Key-value Store"
+    :authors "Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels"
+    :link "http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf"
+    :story "When I first joined MCA I felt completely out of place, I had no idea what a distributed system was. I read a bunch of distributed systems papers to try to catch up and after reading Dynamo something finally clicked. Dynamo uses a lot of the most common distributed systems tricks and seeing them together help me understand each of them individually. I remember after reading the paper, I finally started understanding what Greenberg was talking about and could start contributing."}]}
  "abolin"
  {:name "Andrew Bolin"
   :userpic "abolin.jpg"
@@ -45,15 +44,23 @@ It's pretty swell."}
   :layout full-photo-top
   :papers
   [
-   {:title ""
-    :authors ""
-    :link ""
-    :story ""}
-   {:title ""
-    :authors ""
-    :link ""
-    :story ""}
-   {:title ""
-    :authors ""
-    :link ""
-    :story ""}]}}
+   {:title "Portfolio Selection"
+    :authors "Harry Markowitz"
+    :link "https://www.math.ust.hk/~maykwok/courses/ma362/07F/markowitz_JF.pdf"
+    :story "> My ventures are not in one bottom trusted,
+> Nor to one place, nor is my whole estate
+> Upon the fortune of this present year.
+> Therefore my merchandise makes me not sad.
+> - Merchant of Venice (1.1.42-45)"}
+   {:title "Beowulf: The Monsters and the Critics"
+    :authors "J. R. R. Tolkien"
+    :link "https://books.google.com/books?id=_sU0bTfcIjYC&pg=PA14&hl=en#v=onepage&q&f=false"
+    :story "Prior to being considered one of the most important works in Old English literature, Beowulf was only ever discussed as a source of information on Anglo-Saxon history. This essay, written by J. R. R. Tolkien in 1936, argued that Beowulf’s value as a poem is much greater than its value as a historical document.
+ 
+The most impactful part of the essay for me is when Tolkien gives an allegory of a man who builds a tower from some old stones in his field. Some other people find that the stones are older than the tower, so they tear it down to try to learn more about stones’ past. The people are incredulous that the man would build a “nonsensical tower” from the stones and question why he would not restore the old house that the stones clearly came from. Tolkien completes the scene with the reflection, “But from the top of that tower the man had been able to look out upon the sea”. The other people only ever saw the value in the building blocks of the tower, and the potential history they represented. They never saw the value in the tower itself.
+ 
+This helped me to realize the monumental importance of perspective, and to constantly be reevaluation how I am judging the things I encounter in my everyday life."}
+   {:title "Paxos Made Simple"
+    :authors "Leslie Lamport"
+    :link "http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf"
+    :story "I received very little exposure to distributed systems in school, but nowadays I am inundated by talks, papers, and discussions about disturbed systems. David Greenberg pointed me to this paper (in conjunction to the Raft paper) almost two years ago, and I like to think of it as my first step down the rabbit hole."}]}}

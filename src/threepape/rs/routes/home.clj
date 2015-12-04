@@ -6,10 +6,10 @@
             [clojure.java.io :as io]))
 
 (def users
-   (fn get-users []
-     (-> (io/resource "papers.edn")
-         (slurp)
-         (edn/read-string))))
+  (fn get-users []
+    (-> (io/resource "papers.edn")
+        (slurp)
+        (edn/read-string)))) 
 
 (defn home-page []
   (layout/render "home.html" {:users (->> (users)
