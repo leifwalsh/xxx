@@ -5,7 +5,7 @@
       <h2 style="margin-top: 0px; font-variant: small-caps;">{{name}}</h2>
       {{userinfo|markdown}}
       {% for paper in papers %}
-      <div class="paper" style="font-size: 2vmin">
+      <div class="paper" >
         <a href="{{paper.link}}"><h3 style="font-variant: small-caps;">{{paper.title}}</h3></a>
         <p><em>{{paper.authors}}</em></p>
         {{paper.story|markdown}}
