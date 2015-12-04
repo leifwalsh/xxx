@@ -21,7 +21,7 @@
  {:name "Wil Yegelwel"
   :userpic "wyegelwe.jpg"
   :userinfo "Two Sigma"
-  :layout "small-photo-right"
+  :layout "medium-photo-right"
   :papers
   [
    {:title "The Rendering Equation"
@@ -41,7 +41,7 @@ I took my first computer graphics course as a sophomore and this paper made me r
  {:name "Andrew Bolin"
   :userpic "abolin.jpg"
   :userinfo "Two Sigma"
-  :layout "full-photo-top"
+  :layout "medium-photo-right"
   :papers
   [
    {:title "Portfolio Selection"
