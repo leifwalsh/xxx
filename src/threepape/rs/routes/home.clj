@@ -2,33 +2,34 @@
   (:require [threepape.rs.layout :as layout]
             [compojure.core :refer [defroutes GET]]
             [ring.util.http-response :refer [ok]]
+            [clojure.edn :as edn]
             [clojure.java.io :as io]))
 
-(defn home-page []
-  (layout/render
-   "home.html"
-   {:name "leif walsh"
-    :userpic "/img/leif.jpg"
-    :userinfo "peon at two sigma"
-    :papers [{:title "On the Zone Theorem for Hyperplane Arrangements"
-              :authors "Herbert Edelsbrunner, Raimund Seidel, and Micha Sharir"
-              :link "http://pub.ist.ac.at/~edels/Papers/1993-J-02-OnZoneTheorem.pdf"
-              :story "Sweeeeet."}
-             {:title "On Khovanov's categorification of the Jones polynomial"
-              :authors "Dror Bar-Natan"
-              :link "http://arxiv.org/abs/math/0201043"
-              :story "I like this paper.
+(def users
+  (memoize
+   (fn get-users []
+     (-> (io/resource "papers.edn")
+         (slurp)
+         (edn/read-string)))))
 
-It's pretty swell."}
-             {:title "Reflections on Trusting Trust"
-              :authors "Ken Thompson"
-              :link "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf"
-              :story "Also p. dope."}]}))
+(defn home-page []
+  (layout/render "home.html" {:users (->> (users)
+                                          (mapv (fn [[id user]]
+                                                  {:id id
+                                                   :name (:name user)})))}))
+
+(defn user-page [id]
+  (if-let [user (get (users) id)]
+    (layout/render (format "layout%d.html" (:layout user))
+                   user)
+    (layout/error-page {:status 404
+                        :title "page not found"})))
 
 (defn about-page []
   (layout/render "about.html"))
 
 (defroutes home-routes
   (GET "/" [] (home-page))
-  (GET "/about" [] (about-page)))
+  (GET "/about" [] (about-page))
+  (GET "/user/:id" [id] (user-page id)))
 

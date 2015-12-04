@@ -1,0 +1,59 @@
+{"leif"
+ {:name "Leif Walsh"
+  :userpic "leif.jpg"
+  :userinfo "Two Sigma"
+  :layout 1
+  :papers
+  [
+   {:title "On the Zone Theorem for Hyperplane Arrangements"
+    :authors "Herbert Edelsbrunner, Raimund Seidel, and Micha Sharir"
+    :link "http://pub.ist.ac.at/~edels/Papers/1993-J-02-OnZoneTheorem.pdf"
+    :story "Sweeeeet."}
+   {:title "On Khovanov's categorification of the Jones polynomial"
+    :authors "Dror Bar-Natan"
+    :link "http://arxiv.org/abs/math/0201043"
+    :story "I like this paper.
+
+It's pretty swell."}
+   {:title "Reflections on Trusting Trust"
+    :authors "Ken Thompson"
+    :link "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf"
+    :story "Also p. dope."}]}
+ "wyegelwe"
+ {:name "Wil Yegelwel"
+  :userpic "wyegelwe.jpg"
+  :userinfo "Two Sigma"
+  :layout 2
+  :papers
+  [
+   {:title ""
+    :authors ""
+    :link ""
+    :story ""}
+   {:title ""
+    :authors ""
+    :link ""
+    :story ""}
+   {:title ""
+    :authors ""
+    :link ""
+    :story ""}]}
+ "abolin"
+ {:name "Andrew Bolin"
+  :userpic "abolin.jpg"
+  :userinfo "Two Sigma"
+  :layout 3
+  :papers
+  [
+   {:title ""
+    :authors ""
+    :link ""
+    :story ""}
+   {:title ""
+    :authors ""
+    :link ""
+    :story ""}
+   {:title ""
+    :authors ""
+    :link ""
+    :story ""}]}}
