@@ -1,12 +1,30 @@
 {% extends "base.html" %}
 {% block content %}
   <div class="row">
-    <div class="col-xs-9">
-      <ul>
+    <div class="col-xs-4">
+      <h2>three papers</h2>
+      <p><a href="/about">About</a></p>
+    </div>
+    <div class="col-xs-8">
+      <main role="main">
         {% for user in users %}
-        <li><a href="/user/{{user.id}}">{{user.name}}</a></li>
+        <article class="user">
+          <figure>
+            <a href="/user/{{user.id}}">
+              <img src="/img/{{user.userpic}}" width="200"/>
+            </a>
+          </figure>
+          <header>
+            <h3 style="font-variant: small-caps;">
+              <a href="/user/{{user.id}}">
+                {{user.name}}
+              </a>
+            </h3>
+          </header>
+          <hr/>
+        </article>
         {% endfor %}
-      </ul>
+      </main>
     </div>
   </div>
 {% endblock %}

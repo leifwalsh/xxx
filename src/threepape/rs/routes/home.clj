@@ -14,8 +14,7 @@
 (defn home-page []
   (layout/render "home.html" {:users (->> (users)
                                           (mapv (fn [[id user]]
-                                                  {:id id
-                                                   :name (:name user)})))}))
+                                                  (merge user {:id id}))))}))
 
 (defn user-page [id]
   (if-let [user (get (users) id)]
