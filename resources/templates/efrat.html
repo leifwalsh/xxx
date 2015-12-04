@@ -1,0 +1,27 @@
+{% extends "layout-base.html" %}
+{% block content %}
+  {% include "user-site-nav.html" %}
+  <div class="row">
+    <div class="col-xs-11">
+      <header class="user">
+        <h2 class="name">{{name}}</h2>
+        <img src="/img/{{userpic}}" width="100%" height="100%"/>
+      </header>
+    </div>
+  </div>
+  <div class="row">
+    <main>
+      {% for paper in papers %}
+      <div class="col-md-3 col-xs-9 {% if not forloop.first %}col-md-push-{{forloop.counter0}}{% endif %}">
+        <article class="paper">
+          <h3 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h3>
+          <p class="authors">{{paper.authors}}</p>
+          <div class="story">
+            {{paper.story|markdown}}
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </main>
+  </div>
+{% endblock %}

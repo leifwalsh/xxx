@@ -103,6 +103,25 @@ This helped me to realize the monumental importance of perspective, and to be co
     :link "http://amturing.acm.org/p558-lamport.pdf"
     :story "I call this one, endearingly, the Greenberg paper. In the early days of Simfarm v2, maybe early 2013, we spent hours walking in circles Washington Square Park, talking distributed systems. I remember him saying, 'what? You haven't read time, clocks and ordering?, you're kidding me.  This one gets under your skin, should be required reading, and is just ridiculously prescient. Written in 1978, pre-internet in the context of ARPANET, it's as relevant today."}
    {:title "Spanner: Google's globally distributed database﻿﻿"
-    :authors "Jeff Dean et. al."
+    :authors "Jeff Dean, Sanjay Ghemawat, et. al."
     :link "http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"
-    :story "Because Jeff Dean, and because this is the high bar by which we can benchmark our team."}]}}
+    :story "Because Jeff Dean, and because this is the high bar by which we can benchmark our team."}]}
+ "efrat"
+ {:name "Effie Baram"
+  :userpic "efrat.jpg"
+  :userinfo "Two Sigma"
+  :layout "efrat"
+  :papers
+  [
+   {:title "Bigtable: A Distributed Storage System for Structured Data"
+    :authors "Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber"
+    :link "http://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf"
+    :story ""}
+   {:title "Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing"
+    :authors "Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy McCauley, Michael J. Franklin, Scott Shenker, Ion Stoica"
+    :link "https://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf"
+    :story ""}
+   {:title "Above the Clouds: A Berkeley View of Cloud Computing"
+    :authors "Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy H. Katz, Andrew Konwinski, Gunho Lee, David A. Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia"
+    :link "https://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf"
+    :story ""}]}}
