@@ -4,7 +4,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <META name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to threepape.rs</title>
+    <title>3 PAPERS</title>
   </head>
   <body>
     <div class="container">
@@ -25,20 +25,6 @@
     <script type="text/javascript">
       var context = "{{servlet-context}}";
     </script>
-    <script type="text/javascript">
-      $(".container").on("swipeleft", function(){
-          console.log("left");
-          window.location.href = "/user/{{prev}}";
-      });
-      $(".container").on("swiperight", function(){
-          console.log("right");
-          window.location.href = "/user/{{next}}";
-      });
-      $(".container").on("swipe", function(){ console.log("swipe")});
-
-    </script>
-
-
     {% block page-scripts %}
     {% endblock %}
   </body>

@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "layout-base.html" %}
 {% block content %}
 {% include "user-site-nav.html" %}
     <main>
@@ -6,7 +6,7 @@
       <div class="col-md-8 col-xs-12">
         <header class="user">
           <img src="/img/{{userpic}}" width="100%"/>
-          <h3 class="name" style="position: absolute; right: 20px">{{name}}</h3>
+          <h3 class="name palaitis-right">{{name}}</h3>
         </header>
       </div>
       <div class="col-md-4 col-xs-12">
