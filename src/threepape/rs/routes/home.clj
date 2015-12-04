@@ -11,17 +11,36 @@
         (slurp)
         (edn/read-string))))
 
+(def id->previous-id
+  (fn previous-id []
+    (->> (users)
+         (keys)
+         (partition 2 1)
+         (map reverse)
+         (map vec)
+         (into {(ffirst (users)) ((comp first last) (users))}))))
+
+(def id->next-id
+  (fn []
+    (->> (id->previous-id)
+         (map reverse)
+         (map vec)
+         (into {}))))
+
 (defn home-page []
   (layout/render "home.html" {:users (->> (users)
                                           (mapv (fn [[id user]]
                                                   (merge user {:id id}))))}))
 
 (defn user-page [id]
-  (if-let [user (get (users) id)]
-    (layout/render (str (:layout user) ".html") 
-                   user)
-    (layout/error-page {:status 404
-                        :title "page not found"})))
+  (let [id->user-info (users)]
+    (if-let [user (get id->user-info id) ]
+      (layout/render (str (:layout user) ".html")
+                     (assoc user
+                            :next ((id->next-id) id)
+                            :prev ((id->previous-id) id)))
+      (layout/error-page {:status 404
+                          :title "page not found"}))))
 
 (defn about-page []
   (layout/render "about.html"))
