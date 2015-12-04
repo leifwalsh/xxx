@@ -10,5 +10,19 @@
       $(".container").on("swipeleft", goLeft);
       $(".container").on("swiperight", goRight);
       // $(".container").on("swipe", function(){ console.log("swipe")});
-    </script>
-{% endblock %}
+
+      $(document).keydown(function(e) {
+          switch(e.which) {
+              case 37: // left
+              goLeft();
+
+              case 39: // right
+              goRight();
+
+              default: return; // exit this handler for other keys
+          }
+          e.preventDefault(); // prevent the default action (scroll / move caret)
+      });
+
+      </script>
+      {% endblock %}
