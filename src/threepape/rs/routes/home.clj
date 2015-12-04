@@ -9,7 +9,7 @@
   (fn get-users []
     (-> (io/resource "papers.edn")
         (slurp)
-        (edn/read-string)))) 
+        (edn/read-string))))
 
 (defn home-page []
   (layout/render "home.html" {:users (->> (users)
