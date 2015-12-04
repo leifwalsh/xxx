@@ -22,6 +22,12 @@ a:hover {
     font-size: 75%;
 }
 
+@media(min-width:992px){
+    .palaitis-right {
+        position: absolute; right: 20px;
+    }
+}
+
 nav.align-right {
     text-align: right;
 }

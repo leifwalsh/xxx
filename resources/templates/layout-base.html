@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block page-scripts %}
+    <script type="text/javascript">
+      var goLeft = function() {
+          window.location.href = "/user/{{prev}}";
+      };
+      var goRight = function() {
+          window.location.href = "/user/{{next}}";
+      };
+      $(".container").on("swipeleft", goLeft);
+      $(".container").on("swiperight", goRight);
+      $(".container").keydown(function(e) {
+        switch(e.which) {
+          case 37: // left
+          goLeft();
+          break;
+          case 39: // right
+          goRight();
+          break;
+          default: return; // exit this handler for other keys
+        }
+        e.preventDefault(); // prevent the default action (scroll / move caret)
+      });
+      // $(".container").on("swipe", function(){ console.log("swipe")});
+    </script>
+{% endblock %}
