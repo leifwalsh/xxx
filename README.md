@@ -1,6 +1,6 @@
 # threepape.rs
 
-FIXME
+![diesel](https://raw.github.com/leifwalsh/xxx/master/resources/diesel.jpg)
 
 ## Prerequisites
 
