@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
   <div class="row">
-    <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+    <div class="col-md-10 col-sm-12 col-xs-12">
       <nav class="align-right">
         <a href="/">3 PAPERS</a> | <a href="/about">ABOUT</a>
       </nav>
@@ -9,7 +9,7 @@
   </div>
   <main>
     <div class="row">
-      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+      <div class="col-md-4 col-sm-4 col-xs-12">
         <header class="user">
           <h2 class="name">{{name}}</h2>
           <img src="/img/{{userpic}}" width="100%"/>
@@ -17,18 +17,21 @@
       </div>
       {% for paper in papers %}
       {% if forloop.first %}
-      <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
+      <div class="col-md-6 col-sm-8 col-xs-12">
       {% else %}
-      <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+      <div class="col-md-5 col-sm-6 col-xs-12">
       {% endif %}
         <article class="paper {% if forloop.first %}align-right{% endif %}{% if forloop.last %}align-right{% endif %}">
-          <h4 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h3>
+          <h4 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h4>
           <p class="authors">{{paper.authors}}</p>
           <div class="story">
             {{paper.story|markdown}}
           </div>
         </article>
       </div>
+      {% if forloop.first %}
+      </div><div class="row">
+      {% endif %}
       {% endfor %}
     </div>
   </main>

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="row">
+    <div class="col-md-10 col-sm-12 col-xs-12">
+      <nav class="align-right">
+        <a href="/">3 PAPERS</a> | <a href="/about">ABOUT</a>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <div class="row">
+      <div class="col-md-8 col-xs-12">
+        <header class="user">
+          <img src="/img/{{userpic}}" width="100%"/>
+          <h3 class="name" style="position: absolute; right: 20px">{{name}}</h3>
+        </header>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        {% for paper in papers %}
+        {% if not forloop.first %}
+        <div class="row">
+          <div class="col-xs-12">
+            <article class="paper">
+              <h5 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h5>
+              <p class="authors small">{{paper.authors}}</p>
+              <div class="story small">
+                {{paper.story|markdown}}
+              </div>
+            </article>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-push-1 col-xs-12">
+        {% for paper in papers %}
+        {% if forloop.first %}
+        <article class="paper">
+          <h5 class="title"><a href="{{paper.link}}">{{paper.title}}</a></h5>
+          <p class="authors small">{{paper.authors}}</p>
+          <div class="story small">
+            {{paper.story|markdown}}
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+{% endblock %}

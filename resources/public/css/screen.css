@@ -18,6 +18,10 @@ a:hover {
     text-transform: uppercase;
 }
 
+.story.small {
+    font-size: 75%;
+}
+
 nav.align-right {
     text-align: right;
 }
