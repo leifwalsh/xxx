@@ -1,19 +1,47 @@
 {% extends "base.html" %}
 {% block content %}
-  <div class="row">
-    <div class="col-xs-3">
-      <img src="/img/{{userpic}}" width="100%"/>
-    </div>
-    <div class="col-xs-9">
-      <h2 style="margin-top: 0px; font-variant: small-caps;">{{name}}</h2>
-      {{userinfo|markdown}}
-      {% for paper in papers %}
-      <div class="paper">
-        <a href="{{paper.link}}"><h3 style="font-variant: small-caps;">{{paper.title}}</h3></a>
-        <p><em>{{paper.authors}}</em></p>
-        {{paper.story|markdown}}
+  <main>
+    <div class="row">
+      <div class="col-lg-9 col-md-8 col-xs-12">
+        <header class="user">
+          <h2 class="name">{{name}}</h2>
+        </header>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-xs-12">
+        <header class="user">
+          <img src="/img/{{userpic}}" width="100%"/>
+        </header>
+      </div>
+      <div class="col-lg-6 col-md-5 col-xs-12">
+        {% for paper in papers %}
+        {% if forloop.first %}
+        <article class="paper">
+          <a href="{{paper.link}}"><h3 class="title">{{paper.title}}</h3></a>
+          <p class="authors">{{paper.authors}}</p>
+          <div class="story">
+            {{paper.story|markdown}}
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      {% for paper in papers %}
+      {% if not forloop.first %}
+      <div class="col-lg-4 col-md-8 col-xs-12">
+        <article class="paper">
+          <a href="{{paper.link}}"><h3 class="title">{{paper.title}}</h3></a>
+          <p class="authors">{{paper.authors}}</p>
+          <div class="story">
+            {{paper.story|markdown}}
+          </div>
+        </article>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
-  </div>
+  </main>
 {% endblock %}
