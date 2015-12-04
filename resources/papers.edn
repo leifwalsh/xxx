@@ -5,14 +5,14 @@
   :layout "small-photo-left"
   :papers
   [
-   {:title "On Khovanov's categorification of the Jones polynomial"
-    :authors "Dror Bar-Natan"
-    :link "http://arxiv.org/abs/math/0201043"
-    :story "This was the paper I presented with a friend when we had a knot theory seminar one semester. It was a lot of fun to prepare for, and the last page is a \"quick reference guide - cut, fold neatly, and place in your wallet\". Which of course we did."}
    {:title "On the Zone Theorem for Hyperplane Arrangements"
     :authors "Herbert Edelsbrunner, Raimund Seidel, and Micha Sharir"
     :link "http://pub.ist.ac.at/~edels/Papers/1993-J-02-OnZoneTheorem.pdf"
     :story "The story behind this one was told to me by my comp. geometry professor. In the late 80s the original Zone Theorem paper came out, and people started relying on it for their own results. At a conference a few years later, during the open problem session, someone (I think one of the authors?) went to the board and wrote down the question that the Zone Theorem answers. Everyone immediately recognized it and wondered why it was being presented as an open problem. Whoever it was said that they'd found a flaw in the proof and it needed to be fixed. Since everyone's results depended on it, they all pitched in to figure it out, and by the end of the conference they'd come up with a new, far simpler proof. My professor said it might be a good idea to fake this once in a while to try to get people to find simpler proofs of fundamental results. Anyway, this paper is the fixed version."}
+   {:title "On Khovanov's categorification of the Jones polynomial"
+    :authors "Dror Bar-Natan"
+    :link "http://arxiv.org/abs/math/0201043"
+    :story "This was the paper I presented with a friend when we had a knot theory seminar one semester. It was a lot of fun to prepare for, and the last page is a \"quick reference guide - cut, fold neatly, and place in your wallet\". Which of course we did."}
    {:title "Reflections on Trusting Trust"
     :authors "Ken Thompson"
     :link "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf"

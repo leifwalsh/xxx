@@ -10,7 +10,7 @@ a {
 }
 a:hover {
     color: white;
-    background: black !important;
+    background: black;
     text-decoration: none;
 }
 
@@ -20,6 +20,11 @@ a:hover {
 
 nav {
     text-align: right;
+}
+@media(min-width:992px){
+    .align-right {
+        text-align: right;
+    }
 }
 
 {% if cljs %}
