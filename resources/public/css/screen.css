@@ -2,18 +2,24 @@ html,
 body {
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 100%;
-    padding-top: 40px;
+//    padding-top: 40px;
 }
 a {
     color: black;
+    text-decoration: none;
 }
 a:hover {
-    color: black;
-    text-decoration: underline;
+    color: white;
+    background: black !important;
+    text-decoration: none;
 }
 
-#user-details .name, .paper .title, .paper .authors {
+.user .name, .paper .title, .paper .authors {
     text-transform: uppercase;
+}
+
+nav {
+    text-align: right;
 }
 
 {% if cljs %}
