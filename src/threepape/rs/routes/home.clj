@@ -18,7 +18,7 @@
 
 (defn user-page [id]
   (if-let [user (get (users) id)]
-    (layout/render (format "layout%d.html" (:layout user))
+    (layout/render (str (:layout user) ".html") 
                    user)
     (layout/error-page {:status 404
                         :title "page not found"})))
