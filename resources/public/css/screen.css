@@ -31,6 +31,10 @@ nav.align-right {
     }
 }
 
+@media(max-width:768px){
+
+}
+
 {% if cljs %}
 @-moz-keyframes three-quarters-loader {
     0% {
