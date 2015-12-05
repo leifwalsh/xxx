@@ -97,7 +97,7 @@ This helped me to realize the monumental importance of perspective, and to be co
    {:title "An Efficient Algorithm for Determining the Convex Hull of a Finite Planar Set"
     :authors "R. L. Graham"
     :link "http://www.math.ucsd.edu/~ronspubs/72_10_convex_hull.pdf"
-    :story "On [Lifetime's](﻿https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMp0W0RgmdElmXtiL0mCHqENaRIRtIVAnXj3iL_F3EbZjEEjh) second European tour, I carried a photocopy of this paper in my dusty, beat up thrift shop suitcase. In the slow motion downtime between days, I worked through it repeatedly.  By the end of the tour, I'd taken to compulsively doodling steps of the Graham Scan and other algorithms in comp geometry. I'd draw hundreds of points on a piece paper, then work through the Convex Hulls and Voronoi Diagrams until I started to feel better, less homesick, less crazy, more myself."}
+    :story "On [Lifetime's](http://media.tumblr.com/tumblr_ly33yhFWuE1qzxlbn.jpg) second European tour, I carried a photocopy of this paper in my dusty, beat up thrift shop suitcase. In the slow motion downtime between days, I worked through it repeatedly.  By the end of the tour, I'd taken to compulsively doodling steps of the Graham Scan and other algorithms in comp geometry. I'd draw hundreds of points on a piece paper, then work through the Convex Hulls and Voronoi Diagrams until I started to feel better, less homesick, less crazy, more myself."}
    {:title "Time, Clocks, and the Ordering of Events in a Distributed System﻿﻿"
     :authors "Leslie Lamport"
     :link "http://amturing.acm.org/p558-lamport.pdf"
