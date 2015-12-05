@@ -29,8 +29,10 @@ a:active, a:visited {
     text-transform: uppercase;
 }
 
-.story.small {
-    font-size: 75%;
+@media(min-width:768px){
+    .story.small {
+        font-size: 75%;
+    }
 }
 
 @media(min-width:992px){
