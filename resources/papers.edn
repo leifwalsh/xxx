@@ -164,4 +164,23 @@ I had the fortune of taking Real Analysis with Prof. Hamkins when he was visitin
    {:title "Tree-Maps: A Space-Filling Approach to the Visualization of Hierarchical Information Structures & Squarified Treemaps"
     :authors "Brian Johnson and Ben Shneiderman"
     :link "http://www.interactiondesign.us/courses/2011_AD690/PDFs/Johnson_1991.pdf"
-    :story "Treemaps, particularly squarified treemaps, are an elegant data visualization that just wouldn’t exist without modern computers.  They’ve become one of the fundamental visualization techniques for hierarchical data in a relatively short time."}]}}
+    :story "Treemaps, particularly squarified treemaps, are an elegant data visualization that just wouldn’t exist without modern computers.  They’ve become one of the fundamental visualization techniques for hierarchical data in a relatively short time."}]}
+ "dgrnbrg"
+ {:name "David Greenberg"
+  :userpic "dgrnbrg.jpg"
+  :userinfo "Two Sigma"
+  :layout "dgrnbrg"
+  :papers
+  [
+   {:title "Chain Replication for Supporting High Throughput and Availability"
+    :authors "Robbert van Renesse and Fred B. Schneider"
+    :link "http://www.cs.cornell.edu/home/rvr/papers/osdi04.pdf"
+    :story ""}
+   {:title "In Search of an Understandable Consensus Algorithm"
+    :authors "Diego Ongaro and John Ousterhout"
+    :link "https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf"
+    :story ""}
+   {:title "Copysets: Reducing the Frequency of Data Loss in Cloud Storage"
+    :authors "Asaf Cidon, Stephen Rumble, Ryan Stutsman, Sachin Katti, John Ousterhout and Mendel Rosenblum"
+    :link "http://web.stanford.edu/~skatti/pubs/usenix13-copysets.pdf"
+    :story ""}]}}
