@@ -4,16 +4,23 @@ body {
     height: 100%;
 //    padding-top: 40px;
 }
+main {
+    padding-top: 20px;
+}
 a {
     color: black;
     text-decoration: none;
 }
 a:hover {
-    color: white;
+    color: white !important;
     background: black;
     text-decoration: none;
 }
-a:visited {
+a:hover img.hover-invert {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+a:active, a:visited {
     color: black;
     text-decoration: none;
 }
@@ -35,8 +42,13 @@ a:visited {
 nav.align-right {
     text-align: right;
 }
-@media(min-width:768px){
-    .align-right {
+@media(min-width:992px){
+    .align-right-md {
+        text-align: right;
+    }
+}
+@media(min-width:1200px){
+    .align-right-lg {
         text-align: right;
     }
 }

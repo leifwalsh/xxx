@@ -2,7 +2,7 @@
  {:name "Leif Walsh"
   :userpic "leif.jpg"
   :userinfo "Two Sigma"
-  :layout "small-photo-left"
+  :layout "leif"
   :papers
   [
    {:title "On the Zone Theorem for Hyperplane Arrangements"
@@ -124,4 +124,44 @@ This helped me to realize the monumental importance of perspective, and to be co
    {:title "Above the Clouds: A Berkeley View of Cloud Computing"
     :authors "Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy H. Katz, Andrew Konwinski, Gunho Lee, David A. Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia"
     :link "https://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf"
-    :story ""}]}}
+    :story ""}]}
+ "lsawyer"
+ {:name "Ris Sawyer"
+  :userpic "lsawyer.jpg"
+  :userinfo "Two Sigma"
+  :layout "lsawyer"
+  :papers
+  [
+   {:title "A Brief Introduction to Matroid Theory"
+    :authors "Joseph E. Bonin"
+    :link "http://view.samurajdata.se/psview.php?id=f51a7fb2&page=2"
+    :story "During my junior year of an undergraduate Applied Mathematics degree, I discovered and instantly loved Combinatorics.  One of my professors, Joseph Bonin, had done a great deal of work in matroid theory, a branch of combinatorics.  I studied this paper with him in great detail, and spent my senior year researching lattice path matroids, which ultimately led to my own publication in Pi Mu Epsilon. "}
+   {:title "Adaptive Arrival Price"
+    :authors "Robert Almgren and Julian Lorenz"
+    :link "http://www.courant.nyu.edu/~almgren/papers/AdaptArrival.pdf"
+    :story "Early in my career I worked for a software company that made an order management system used by various investment banks.  I worked on the algo trading team, and one of my firsts tasks was to read this paper and reverse the implementation shortfall algo to develop an exit price algo.  The project and the subsequent work I did on the team have really shaped my career."}
+   {:title "When zombies attack!: Mathematical modelling of an outbreak of zombie infection"
+    :authors "Philip Munz, Ioan Hudea, Joe Imad, Robert J. Smith"
+    :link "https://loe.org/images/content/091023/Zombie%20Publication.pdf"
+    :story "I'm prepared.  Are you?"}]}
+ "madereth"
+ {:name "Matt Adereth"
+  :userpic "madereth.jpg"
+  :userinfo "Two Sigma"
+  :layout "madereth"
+  :papers
+  [
+   {:title "Recursive Functions of Symbolic Expressions and Their Computation by Machine"
+    :authors "John McCarthy"
+    :link "http://www-formal.stanford.edu/jmc/recursive.pdf"
+    :story "The original LISP paper by McCarthy from 1960.  What can I say that hasn’t already been said by Paul Graham?"}
+   {:title "Infinite Time Turing Machines"
+    :authors "Joel David Hamkins and Andy Lewis"
+    :link "http://arxiv.org/pdf/math/9808093v1"
+    :story "This is a fun paper that does a rigorous analysis of what might be considered a silly idea: what if we had an infinitely fast computer?  More precisely, what if we had a Turing Machine that could perform countably infinite steps in finite time?  It’s Zeno’s Paradox translated to a modern computational framework and it’s interesting to see what it does to concepts like the Halting Problem.
+
+I had the fortune of taking Real Analysis with Prof. Hamkins when he was visiting CMU from Stony Brook and he was easily the best teacher I had.  He’s also the top contributor on Math Overflow."}
+   {:title "Tree-Maps: A Space-Filling Approach to the Visualization of Hierarchical Information Structures & Squarified Treemaps"
+    :authors "Brian Johnson and Ben Shneiderman"
+    :link "http://www.interactiondesign.us/courses/2011_AD690/PDFs/Johnson_1991.pdf"
+    :story "Treemaps, particularly squarified treemaps, are an elegant data visualization that just wouldn’t exist without modern computers.  They’ve become one of the fundamental visualization techniques for hierarchical data in a relatively short time."}]}}

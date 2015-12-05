@@ -1,16 +1,16 @@
 {% extends "layout-base.html" %}
 {% block content %}
   {% include "user-site-nav.html" %}
-  <div class="row">
-    <div class="col-md-11 col-xs-12">
-      <header class="user">
-        <h2 class="name">{{name}}</h2>
-        <img src="/img/{{userpic}}" width="100%" height="100%"/>
-      </header>
+  <main>
+    <div class="row">
+      <div class="col-md-11 col-xs-12">
+        <header class="user">
+          <img src="/img/{{userpic}}" width="100%" height="100%"/>
+          <h2 class="name">{{name}}</h2>
+        </header>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <main>
+    <div class="row">
       {% for paper in papers %}
       <div class="col-md-3 col-xs-12 {% if not forloop.first %}col-md-push-{{forloop.counter0}}{% endif %}">
         <article class="paper">
@@ -22,6 +22,6 @@
         </article>
       </div>
       {% endfor %}
-    </main>
-  </div>
+    </div>
+  </main>
 {% endblock %}

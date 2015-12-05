@@ -11,6 +11,11 @@
         (slurp)
         (edn/read-string))))
 
+(def about
+  (fn get-about []
+    (-> (io/resource "docs/about.md")
+        (slurp))))
+
 (def id->previous-id
   (fn previous-id []
     (->> (users)
@@ -43,7 +48,7 @@
                           :title "page not found"}))))
 
 (defn about-page []
-  (layout/render "about.html"))
+  (layout/render "about.html" {:about (about)}))
 
 (defroutes home-routes
   (GET "/" [] (home-page))

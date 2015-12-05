@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
   <div class="row">
-    <div class="col-xs-12 col-md-4 col-md-push-4">
+    <div class="col-xs-12 col-md-4 col-md-push-6">
       <nav id="sidebar">
-        <h2><a href="/">3 PAPERS</a></h2>
-        <p><a href="/about">ABOUT</a></p>
+        <a href="/"><img class="hover-invert" src="/img/logo.png" height="20px" alt-text="THREE PAPERS"/></a>
+        <br/>
+        <a href="/about"><img class="hover-invert" src="/img/about.png" height="14px" alt-text="ABOUT"/></a>
       </nav>
     </div>
-    <div class="col-xs-12 col-md-4 col-md-pull-4">
+    <div class="col-xs-12 col-md-6 col-md-pull-4">
       <main role="main">
         {% for user in users %}
         <article class="user">
