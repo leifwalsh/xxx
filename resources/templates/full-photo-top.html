@@ -2,22 +2,20 @@
 {% block content %}
 {% include "user-site-nav.html" %}
   <main>
-  <div class="row">
-    <div class="col-xs-12">
-      <img src="/img/{{userpic}}" width="100%">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-9">
-      <main>
-        <header id="user-details">
+    <div class="row">
+      <div class="col-xs-12">
+        <header class="user">
+          <img src="/img/{{userpic}}" width="100%">
           <h2 class="name">{{name}}</h2>
         </header>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-9">
         {% for paper in papers %}
         {% include "paper.html" %}
         {% endfor %}
-      </main>
+      </div>
     </div>
-  </div>
   </main>
 {% endblock %}
