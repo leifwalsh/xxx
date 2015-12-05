@@ -1,23 +1,25 @@
 {% extends "base.html" %}
 {% block page-scripts %}
     <script type="text/javascript">
-      var goLeft = function() {
+      var goPrev = function() {
+      console.log("prev");
           window.location.href = "/user/{{prev}}";
       };
-      var goRight = function() {
+      var goNext = function() {
+      console.log("next");
           window.location.href = "/user/{{next}}";
       };
-      $(".container").on("swipeleft", goLeft);
-      $(".container").on("swiperight", goRight);
+      $(".container").on("swipeleft", goNext);
+      $(".container").on("swiperight", goPrev);
       // $(".container").on("swipe", function(){ console.log("swipe")});
 
       $(document).keydown(function(e) {
         switch(e.which) {
           case 37: // left
-          goLeft();
+          goPrev();
           break;
           case 39: // right
-          goRight();
+          goNext();
           break;
           default: return; // exit this handler for other keys
         }
