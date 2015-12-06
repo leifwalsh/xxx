@@ -183,4 +183,210 @@ I had the fortune of taking Real Analysis with Prof. Hamkins when he was visitin
    {:title "Copysets: Reducing the Frequency of Data Loss in Cloud Storage"
     :authors "Asaf Cidon, Stephen Rumble, Ryan Stutsman, Sachin Katti, John Ousterhout and Mendel Rosenblum"
     :link "http://web.stanford.edu/~skatti/pubs/usenix13-copysets.pdf"
-    :story ""}]}}
+    :story ""}]}
+ "wzhao"
+ {:name "Wenbo Zhao"
+  :userpic "wzhao.jpg"
+  :userinfo "Two Sigma"
+  :layout "wzhao"
+  :papers
+  [
+   {:title "Nearly-linear time algorithms for graph partitioning, graph sparsification, and solving linear systems"
+    :authors "D. A. Spielman"
+    :link "http://dl.acm.org/citation.cfm?id=1007372"
+    :story "I was one of the reviewers for the journal version of this paper.  It solved the many many years open question: can we solve Ax=b in linear time? Amazing!"}
+   {:title "Approximate Max-Flow Min-(multi)cut Theorems and Their Applications"
+    :authors "N. Garg"
+    :link "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.3217"
+    :story "Everyone knows maximum flow minimum cut theory, but how about the multi concurrent flow and minimum cuts cases?"}
+   {:title "Normalized cuts and image segmentation"
+    :authors "Jianbo Shi and Jitendra Malik"
+    :link "http://www.cs.berkeley.edu/~malik/papers/SM-ncut.pdf"
+    :story "When I was a senior college student, one tech company asked a professor in our department for solving the problem of detecting abnormal object from medical images. The professor was good at math but not computer science and thus gave the problem to me. I basically implemented the idea from the paper and sold the program for 10k. That was a lot of money at that time for a student and make me believe that I should go to graduate school."}]}
+ "mig"
+ {:name "Matt Greenwood"
+  :userpic "mig.jpg"
+  :userinfo "Two Sigma"
+  :layout "mig"
+  :papers
+  [
+   {:title "Applications of negative dimensional tensors"
+    :authors "Roger Penrose"
+    :link "http://homepages.math.uic.edu/~kauffman/Penrose.pdf"
+    :story "This paper probably set the stage for a good chunk of my life. I took an undergraduate seminar with Roger Penrose on general relativity and we spent a fair amount of time discussing Spinors and tensor algebra. He gave me this paper in an attempt to woo me as a potential PhD student, it really had me hooked (although I never ended up working for him.) This paper is a beautiful confluence of physics, algebra and topology in a simple yet beguiling formulation. I ended up being pulled in and out of this topic over the years and spent about a year of my life on a [similar](https://books.google.com/books?id=-tirDt0y2QsC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false) (but more categoric) formulation."}
+   {:title "Infinite Conformal Symmetry in two-dimensional quantum field theory"
+    :authors "A.A. Belavin, A.M Polyakov and A.B. Zamolodchikov"
+    :link "http://qft.itp.ac.ru/BPZ.pdf"
+    :story "BPZ, as this paper is known, is the founding paper for conformal field theory. CFT is really a critical component of string theory, describing what happens at (quantum) critical points. It is also extremely important in statistical mechanics and condensed matter. For a theory of physics to correctly describe the world, it needs to be viewed as the same in every frame of reference. Mathematically, this means that the laws that make up such a theory must be invariant under some group of transformations. For example, standard Newtonian mechanics must be the same in every coordinate system. This implies invariance under rotations and translations of three dimensional space. In special relativity, the requirement that the speed of light is independent of reference frame implies that the theory is invariant under Lorentz transformations. Another example of invariance is scale invariance. Under scale invariance, laws do not change if scales of (e.g.) length are multiplied by a common factor. For example, the Wiener process (or the Serpienski Triangle) are scale invariant. In classical electrodynamics with no currents, Maxwell’s equations are scale invariant (multiplying both space and time by the same factor). CFT is a quantum field theory that is invariant under conformal transformations (A conformal transformation, roughly, preserves shapes on an infinitesimal scale). In more than two dimensions, these theories are completely classified, but in two dimensions, the transformations form a very elegant infinite dimensional algebra that has rich structure. This paper begins the process of classifying 2D CFTs and spurred two decades (and counting) of high energy theoretical physics."}
+   {:title "Cohomology of Knot Spaces"
+    :authors "Victor Vassiliev"
+    :link "http://www.researchgate.net/profile/V_Vassiliev/publication/239666272_Cohomology_of_knot_spaces/links/5578669708aeb6d8c01f14f1.pdf?inViewer=0"
+    :story "This was the paper that pulled me out of Physics and back to Math. I carried around a copy for the better part of three years. This paper effectively defines a [finite-type invariant](https://en.wikipedia.org/wiki/Finite_type_invariant) for knots. I ended up writing my thesis on an extension of this for 3-manifolds. Roughly speaking, if you imagine the (infinite-dimensional) space of all knots and ask what kind of geometric structure you can endow the space with, then you are led to thinking about knots with fixed crossing points. Once you have that you can think about the cohomology of such a space. Vassiliev defines these in this paper. As with BPZ, this paper has spawned a cottage industry of research."}]}
+ "sabraham"
+ {:name "Sunil Abraham"
+  :userpic "sabraham.jpg"
+  :userinfo "Two Sigma"
+  :layout "sabraham"
+  :papers
+  [
+   {:title "More Than 100 Million Women Are Missing"
+    :authors "Amartya Sen"
+    :link "http://www.nybooks.com/articles/archives/1990/dec/20/more-than-100-million-women-are-missing/"
+    :story "Beautiful and elegiac. Sen portrays and addresses the normative, domestic, and above all, human, not through video, as Satyajit Ray did, but just as powerfully through (summary) statistics. I read this in high school and thought I would become an economist."}
+   {:title "A Theory of Justice"
+    :authors "John Rawls"
+    :link "http://www.amazon.com/A-Theory-Justice-John-Rawls/dp/0674000781"
+    :story "Obviously I had heard of Rawls for many years, but it wasn't until grad school in a stochastic networks course of all places that I read any of his ideas deeply. In the original position, we imagine ourselves to be free and equal and wearing the veil of ignorance, unknowing of, and thus unbiased by, our personal nor social characteristics. From this position we are to determine principles of justice, which rationally conclude to equal basic rights and liberties, fair educational and employment opportunities enabling fair competition for positions and powers, and a guaranteed minimum means. To tie this back to stochastic networks, the conclusion from original principle would give us a max-min fairness. The idea is personally important for two reasons. Firstly, it made me aware that fairness as a concept is fraught--it is a metric--and you need first principles to measure against before it can make sense. Secondly, it legitimatized and systematized my idea of how to receive and act on the world for many years (that I am now beginning to talk back), that we should remove our biased selves from decision and then only consider the situation."}
+   {:title "The Design of Experiments*"
+    :authors "Ronald Fisher"
+    :link "https://en.wikipedia.org/wiki/The_Design_of_Experiments"
+    :story "Fisher's first introduces his null hypothesis, a hypothesis that experimentation may disprove but never proves. Fisher's null addresses the the most basic epistemic question, \"How do we know what we know?\" with, \"We don't - but we know that which is very unlikely.\" I was taught the null in my first statistics course at university, and it both blew my mind and turned me into a real pedant. One remarkably tedious and heated argument with my girlfriend at the time was on the less (or, if you were to take the appropriate null, equally, until disproved!) deleterious effects of agave syrup versus refined sugar. There is nothing more tiresome than receiving my 21-year-old's metacritque, \"But what about the limits of knowledge?\" It was only later that I learned an equally important X idea, as Elsa sings, \"Let it go\"~
+ 
+\\* Amazon doesn't stock this, but hilariously, my usually ill-equipped undergraduate residential college does. The library was inexplicably well-stocked with math and statistics books, if not the sharpest minds nor benevolent librarians (see attached), and also extremely rare books, like a fifth edition of \"On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life,\" a copy worth over $5000 that, presuming competent administration, should have been held under lock and key, but instead I---a bumbling undergraduate---found one day on an open shelf!"}]}
+ "cmilloy"
+ {:name "Corey Milloy"
+  :userpic "cmilloy.jpg"
+  :userinfo "Two Sigma"
+  :layout "cmilloy"
+  :papers
+  [
+   {:title "Mr. Money Mustache – Financial Freedom Through Badassity"
+    :authors "Mr. Money Mustache"
+    :link "http://www.mrmoneymustache.com/"
+    :story "Some of you have already had the pleasure of being subjected to my FIRE rants (I assume it was a pleasure… right guys? Right???).
+ 
+I experienced a major shift in my personal life philosophy a few years ago when I was diagnosed with a heart condition. It’s minor, but it made me rethink what I had been spending my time on. I was literally killing myself working long, stressful hours 7 days a week. After that I started down a new path and doing so has led to some pretty significant changes in my life.
+ 
+This blog has served as a guide for me on that path. Mr. and Mrs. Mustache are quite a bit more extreme in their methodologies than I am, but I find that I agree with most of the core principals. The ideas presented in the blog are intended for those who want to minimize the amount of time in their life they must work and maximize the amount of time they have to spend with family and friends."}
+   {:title "The Case for a Progressive Tax: From Basic Research to Policy Recommendations"
+    :authors "Peter Diamond and Emmanuel Saez"
+    :link "http://eml.berkeley.edu/~saez/diamond-saezJEP11opttax.pdf"
+    :story "In today’s heavily politicized world it is common to appeal to voters’ emotions when trying to get your way. I believe in this crazy notion that facts, not emotions, should reign supreme (the ancient pyramids were not grain silos). I liked the way this paper makes the case for progressive taxation because compassion is a hard-sell.
+ 
+That said, not everyone cares to optimize for social welfare."}
+   {:title "Build Your Own Database Driven Web Site Using PHP & MySQL"
+    :authors "Kevin Yank"
+    :link "http://www.amazon.com/gp/product/0980576814"
+    :story "Back in middle school I was playing with game colors in QBasic and manually configuring LANs using IPX/SPX to play games with my friends (Diablo 2 or GTA2 for PC, anyone?). It was much harder then, especially because home routers weren’t a thing.
+
+At some point I decided to make a web site for the ping pong club at my school so I begged my parents for the first edition of this book (2001). I managed to convince them to get it for me instead of spending the cash on random Easter candy (money was scarce at the time). I think the winning line was “come on mom, this could be my job one day”.
+
+That was the first time in my life that my interest in computers yielded a marketable skill. Programming (even in PHP!) taught me a lot and it did actually become my job one day."}]}
+ "nicholasr"
+ {:name "Nick Roberts"
+  :userpic "nicholasr.jpg"
+  :userinfo "Two Sigma"
+  :layout "nicholasr"
+  :papers
+  [
+   {:title "SCOPE: Easy and Efficient Parallel Processing of Massive Data Sets"
+    :authors "Ronnie Chaiken, Bob Jenkins, Per-Åke Larson, Bill Ramsey, Darren Shakib, Simon Weaver, and Jingren Zhou"
+    :link "http://www.vldb.org/pvldb/1/1454166.pdf"
+    :story "I spent the first 3 years of my career building \"Big Data\" analysis tools (10+ PB user transaction logs probably counts as Big Data) on Microsoft’s internal MapReduce compute cluster Cosmos, on which the SCOPE query language is used to perform analysis.  Then 2 years building systems that made use of these logs.  So in total I spent 5 years of my career somehow connected to this distributed compute environment, which has just been released as [U-SQL on Azure](http://blogs.msdn.com/b/visualstudio/archive/2015/09/28/introducing-u-sql.aspx).
+
+Looking back just now SCOPE perfectly captures an elegant design principle which I love, make the majority case as simple as humanly possible, and give hooks to make the long tail possible.
+SCOPE applies this principle as simple aggregations, joins, filtering, can be performed by anyone with 30 minutes training and a basic understanding of SQL, but against petabyte data stores.  Behind the scenes you can write custom reducers, etc. for the much more general compute environment if you want, but the Hello World is simple elegant and yet powerful.  Best part?  GROUP BY is optional. 
+
+    e = EXTRACT query FROM \"search.log\" USING LogExtractor;
+    s1 = SELECT TOP 1 query, COUNT(*) as count FROM e ORDER BY count DESC;
+    OUTPUT s1 to \"topQuery.txt\"
+
+(Note: the answer is {facebook})"}
+   {:title "From RankNet to LambdaRank to LambdaMART: An Overview"
+    :authors "Christopher J.C. Burges"
+    :link "http://research.microsoft.com/pubs/132652/MSR-TR-2010-82.pdf"
+    :story "Math is hard for me.  Pretty much if there doesn’t exist a physical interpretation of something my mind explodes into confusion.  Somewhat surprisingly this hasn’t been a blocker for me developing a taste for machine learning, but probably does skew my perspective to algorithms with a physical interpretation, trees, SVM, nearest neighbors, ... etc.
+This paper captures the progression of one MSR researchers desire to build Learn to Rank algorithms which directly optimize non-smooth cost functions.
+The most elegant part, which really makes the entire paper understandable to me is on page 7 where the author describes a simple force based mental model for what the \"lambdas\" represent., specifically the force needed to be applied to an item in a list to bring it to its optimal position in the list w.r.t. some cost function."}
+   {:title "Detecting Fraud in Financial Statements"
+    :authors "D.B. Skillicorn and L. Purda"
+    :link "http://www.computer.org/csdl/proceedings/eisic/2012/4782/00/4782a007-abs.html"
+    :story "This one is a bit of a surprise for me that this paper exists.  In undergrad I did a summer research project to $subject.  The results were comically bad, but it taught me the real world lesson of the pit falls of overfitting your model.  When the word \"II\" (roman numeral 2) is your top predictive feature, it’s most likely because a specific fraudulent company uses roman numerals to number pages as opposed to an actual generalized feature J.  Apparently a paper was produced on the same topic 4 years later by the prof and someone else .  I’m still trying to track down a copy of the paper from the prof, as the actual paper is behind paywall. That being said, the summer project almost certainly helped my resume string match to the \"Data Mining\" team at Microsoft which set the rest of my career in motion."}]}
+ "sheller"
+ {:name "Steve Heller"
+  :userpic "sheller.jpg"
+  :userinfo "Two Sigma"
+  :layout "sheller"
+  :papers
+  [
+   {:title "List processing in real time on a serial computer"
+    :authors "Henry Baker"
+    :link "http://dspace.mit.edu/bitstream/handle/1721.1/41976/AI_WP_139.pdf"
+    :story "This paper rocked my world. Tracing garbage collection proves object unreachable by complementing the reachable stuff. Baker showed how to guarantee to do this on an ongoing basis with a given (you choose) number of steps per byte allocated. The cost of cleanup was assessed at resource consumption time. We should try that in modern times to protect the environment, but I digress. Baker showed a clear time space tradeoff. Fewer cleanup steps were needed per byte if you had a lot of space, and when space was tight, you had to do a lot of work to keep up."}
+   {:title "Technology and Courage"
+    :authors "Ivan Sutherland"
+    :link "http://vlsicad.ucsd.edu/Research/Advice/technologyAndCourage.pdf"
+    :story "In this essay, Ivan advocates for doing the right thing. Ivan, now 77, is still doing research (asynchronous computing)."}
+   {:title "Spanner: Google's globally distributed database﻿﻿"
+    :authors "Jeff Dean, Sanjay Ghemawat, et. al."
+    :link "http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"
+    :story "Like DP, I like the spanner work. It is one of my models for what a powerful platform looks like. Map-Reduce too. If we can develop technology analogous to this, we will have succeeded (a sufficient condition). We will have done good when we also publish externally."}]}
+ "ljin"
+ {:name "Li Jin"
+  :userpic "ljin.jpg"
+  :userinfo "Two Sigma"
+  :layout "ljin"
+  :papers
+  [
+   {:title "The Application of Hidden Markov Models in Speech Recognition"
+    :authors "Mark Gales and Steve Young"
+    :link "http://mi.eng.cam.ac.uk/~mjfg/mjfg_NOW.pdf"
+    :story "This is the first long paper I have read in my life. I spent countless hours in the library of Fudan University reading this paper. It was a pleasant summer night in Shanghai, after spending another few hours on this paper, I came out of the library, got on my bike, and rode for my dorm. I finally got the essence of it. (Or at least I thought I did) That might have been one of those moments that I convinced myself computer science is what I want to do as a career."}
+   {:title "Quincy: Fair Scheduling for Distributed Computing Clusters"
+    :authors "Michael Isard, Vijayan Prabhakaran, Jon Currey, Udi Wieder, Kunal Talwar and Andrew Goldberg"
+    :link "http://www.cs.duke.edu/courses/cps296.4/fall13/838-CloudPapers/Quincy.pdf"
+    :story "I spent a good amount of time during graduate school on this paper. I am amazed how they map scheduling problem into a min-cost flow problem. I still remember how exited I was after understanding the paper and also, how sad I was after discovering the limitation of the algorithm. I implemented this algorithm on top of [Hammr](https://github.com/hammurabi-mendes/Hammr), which is a toy project created by one of my friends from Brown University. Unfortunately, my code is gone. (Or sitting in my home directory at Brown University, if it still exists). I believe this paper, to some degree, helped me get a job at Two Sigma."}
+   {:title "Pessimal Algorithms and Simplexity Analysis"
+    :authors "Andrei Broder and Jorge Stolfi"
+    :link "http://www.mipmip.org/tidbits/pasa.pdf"
+    :story "I read this paper during an attempt to develop a close relationship with a girl I liked. It was a bet really, to see who can beat the other person in doing a task continuously. The girl’s task was to draw an artistic icon every day, and mine was to read papers for an hour every day. It was a failed attempt in the end.
+
+>\"Consider the following problem: we are given a table of n integer keys A1, A2, ..., An and a query integer X. We want to locate X in the table, but we are in no particular hurry to succeed; in fact, we would like to delay success as much as possible\"
+
+I knew I was onto something after reading the first paragraph of this paper. The paper is extremely clever and entertaining. And more importantly, it reminds me how fascinating computer science is and how genuinely I love it."}]}
+ "lrudolph"
+ {:name "Larry Rudolph"
+  :userpic "lrudolph.jpg"
+  :userinfo "Two Sigma"
+  :layout "lrudolph"
+  :papers
+  [
+   {:title "0. Ultracomputers"
+    :authors "Jacob T. Schwartz"
+    :link "http://www.amazon.co.uk/Ultracomputers-Jacob-T-Schwartz/dp/B0006XMKUY"
+    :story "This paper clearly influenced my life. It was written in 1980 and was one of the papers that helped usher in the era of parallel processing and changed supercomputing. The shuffle-exchange network still amazes (and is the basis for a difficult card trick). Not only is the work impressive, timeless, and still relevant, but it also came about in an impressive way. Jack took a sabbatical from NYU and spent the year at Stanford reading everything that was ever written about parallel processing. This article was the result of that year’s work. Rather than writing hundreds of papers, he would enter a field, master it, and then publish a few groundbreaking works - quality over quantity."}
+   {:title "1. On Computable Numbers, With An Application To The Entscheidungsproblem"
+    :authors "Alan M. Turing"
+    :link "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf"
+    :story "When I was a senior in high school, in 1971, I took two courses in Queens College: Intro to Sociology and Intro to Computer Science (I think they were literally Soc-101 and CS-101 :). I enjoyed both courses, but reading Turing’s paper made me decide to major in computer science. It was the first time I was able to “see” math and then understand the connections between computers and mathematics. It is such a wonderful paper that is still one of the best explanations of Turing machines."}
+   {:title "1. The Complexity of Theorem-Proving Procedures"
+    :authors "Stephen A. Cook"
+    :link "https://www.cs.toronto.edu/~sacook/homepage/1971.pdf"
+    :story "The birth of NP-completeness or the death of computer science. This sparked my interest in theoretical computer science and taught me how to incorporate the two. After my PhD, I was a postdoc at University of Toronto. Stephen Cook sat in my first advanced course that I ever taught. I thought I would start off easy. Theorem 1. \"A processor parallel machine is no faster than a sequential machine.\" Stephen raised his hand and said, \"That is not really a theorem until you define the term 'processor' and 'no faster.'\" I quickly learned the importance of terminology precision. In some ways, this is the lesson of his groundbreaking paper."}
+   {:title "2. The Architecture of Complexity"
+    :authors "Herbert Simon"
+    :link "http://www.cs.brandeis.edu/~cs146a/handouts/papers/simon-complexity.pdf"
+    :story "This paper gives a great introduction to complex systems. Our job as computer scientists / engineers is to constantly fight complexity. We want simple (even complicated, simple ones) systems and this paper gives insight into what that means. Herb Simon is a Nobel Prize laureate in Economics but was also a major figure in AI. One amazing aspect of this paper is that he gets some of the simple math wrong, but somehow still gets pretty much the right answer. Anyone involved in system architecture should have an understanding of complex systems. The ideas in this paper are deep and the writing is direct and clear but much different than any other CS paper I have read."}
+   {:title "3. Medical Devices: The Therac-25"
+    :authors "Nancy Leveson"
+    :link "http://sunnyday.mit.edu/papers/therac.pdf"
+    :story "The Therac-25 was a machine for delivering radiation and electron therapy to cancer patients. It was an upgrade to the Therac-20, which was a pure hardware version. The introduction of software was a big deal back then, especially when the subtle software bugs ended up killing people. The paper is written in a newsworthy, dramatic fashion, but the implications to software engineering are deep and important. Some of the problems stem from programmers that were too clever for their own good. Practices like saving a couple of cycles by incrementing a flag and testing it for non-zero rather than setting it to one led to bad things happening when it overflowed to zero."}]}
+ "akunas"
+ {:name "Drew Kunas"
+  :userpic "akunas.jpg"
+  :userinfo "Two Sigma"
+  :layout "akunas"
+  :papers
+  [
+   {:title "The Markov Chain Monte Carlo Revolution"
+    :authors "Persi Diaconis"
+    :link "http://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf"
+    :story "It’s just this fun, awesome intro to MCMC.  They start with a story about how the Stanford Statistic’s Department’s drop-in consulting *translated coded prison letters* brought to them by a prison psychologist."}
+   {:title "Robust Standard Errors for Panel Regressions"
+    :authors "Daniel Hoechle"
+    :link "http://fmwww.bc.edu/repec/bocode/x/xtscc_paper"
+    :story "Driscoll Kraay, explained by someone who isn’t crazy."}
+   {:title "Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches"
+    :authors "Mitchell A. Peterson"
+    :link "http://www.nber.org/papers/w11280.pdf"
+    :story "It’s an awesome overview of the topic.  A ton of intuition behind it."}]}}

@@ -33,6 +33,12 @@ a:active, a:visited {
     .story.small {
         font-size: 75%;
     }
+    .small pre code {
+        font-size: 10px;
+    }
+    .small blockquote {
+        font-size: 12px;
+    }
 }
 
 @media(min-width:992px){
