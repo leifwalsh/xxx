@@ -301,7 +301,7 @@ The most elegant part, which really makes the entire paper understandable to me 
    {:title "Detecting Fraud in Financial Statements"
     :authors "D.B. Skillicorn and L. Purda"
     :link "http://www.computer.org/csdl/proceedings/eisic/2012/4782/00/4782a007-abs.html"
-    :story "This one is a bit of a surprise for me that this paper exists.  In undergrad I did a summer research project to $subject.  The results were comically bad, but it taught me the real world lesson of the pit falls of overfitting your model.  When the word \"II\" (roman numeral 2) is your top predictive feature, it’s most likely because a specific fraudulent company uses roman numerals to number pages as opposed to an actual generalized feature J.  Apparently a paper was produced on the same topic 4 years later by the prof and someone else .  I’m still trying to track down a copy of the paper from the prof, as the actual paper is behind paywall. That being said, the summer project almost certainly helped my resume string match to the \"Data Mining\" team at Microsoft which set the rest of my career in motion."}]}
+    :story "In undergrad I did a summer research project to $subject.  The results were mixed, but it taught me the real world lesson of the pit falls of overfitting your model.  When the word \"II\" (roman numeral 2) is one of your top predictive feature, it's most likely because a specific fraudulent company uses roman numerals to number pages as opposed to an actual generalized feature ☺.  Apparently a paper was produced on the same topic 4 years later by the prof and someone else.  I'm still trying to track down a copy of the paper from the prof, as the actual paper is behind paywall.  That being said, the summer project almost certainly helped my resume string match to the \"Data Mining\" team at Microsoft which set the rest of my career in motion."}]}
  "sheller"
  {:name "Steve Heller"
   :userpic "sheller.jpg"
@@ -381,12 +381,12 @@ I knew I was onto something after reading the first paragraph of this paper. The
    {:title "The Markov Chain Monte Carlo Revolution"
     :authors "Persi Diaconis"
     :link "http://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf"
-    :story "It’s just this fun, awesome intro to MCMC.  They start with a story about how the Stanford Statistic’s Department’s drop-in consulting *translated coded prison letters* brought to them by a prison psychologist."}
+    :story "It's just this fun, awesome intro to MCMC.  They start with a story about how the Stanford Statistics Department's drop-in consulting *translated coded prison letters* brought to them by a prison psychologist, using algorithms originally designed for nuclear physics."}
    {:title "Robust Standard Errors for Panel Regressions"
     :authors "Daniel Hoechle"
     :link "http://fmwww.bc.edu/repec/bocode/x/xtscc_paper"
-    :story "Driscoll Kraay, explained by someone who isn’t crazy."}
+    :story "The best standard error correction ever, Driscoll-Kraay, explained by someone who isn't Driscoll or Kraay.  Like Shrek 2 or, reportedly, Anne Boleyn, this is an upgrade from the original."}
    {:title "Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches"
     :authors "Mitchell A. Peterson"
     :link "http://www.nber.org/papers/w11280.pdf"
-    :story "It’s an awesome overview of the topic.  A ton of intuition behind it."}]}}
+    :story "It's an awesome overview of the topic, including Fama-MacBeth regressions.  A ton of intuition behind it.  I used to read this to myself like a bedtime story basically every day."}]}}
