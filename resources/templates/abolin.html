@@ -1,0 +1,19 @@
+{% extends "layout-base.html" %}
+{% block content %}
+  {% include "user-site-nav.html" %}
+  <main>
+    <div class="row" style="height: 100%">
+      <div class="col-md-6 col-xs-12 col-md-push-6">
+        <img src="/img/{{userpic}}" width="100%" height="100%"/>
+      </div>
+      <div class="col-md-6 col-xs-12 col-md-pull-6">
+        <header class="user">
+          <h2 class="name">{{name}}</h2>
+        </header>
+        {% for paper in papers %}
+        {% include "paper.html" %}
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+{% endblock %}

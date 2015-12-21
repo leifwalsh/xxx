@@ -41,7 +41,7 @@ I took my first computer graphics course as a sophomore and this paper made me r
  {:name "Andrew Bolin"
   :userpic "abolin.jpg"
   :userinfo "Two Sigma"
-  :layout "medium-photo-right"
+  :layout "abolin"
   :papers
   [
    {:title "Portfolio Selection"
